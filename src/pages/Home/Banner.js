@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div className='relative'>
             <img className='bannerImage' src={bannerImage} alt="" />
-            <h3 className='absolute top-[36%] left-[16%] text-5xl font-bold text-white'>LATEST NEWS</h3>
+            <h3 className='absolute top-[36%] left-[16%] text-5xl font-bold text-white'>LATEST NEWS Zubayer</h3>
             <img className='w-[100%] h-[33.7px]' src={flowerImage} alt="" />
         </div>
     );
