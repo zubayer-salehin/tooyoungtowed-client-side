@@ -1,0 +1,23 @@
+.blog-title{
+    margin-bottom: 27px;
+    font-family: "Freight-SansSC";
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.26;
+    color: #8c0804;
+  }
+  .blog-description {
+    font-family: "Lucida W05 Roman";
+      font-size: 18px;
+      line-height: 1.61;
+      color: #1c1515;
+  }
+  .blog-description a{
+    color: #8c0804;
+  }
+  .blog-date {
+    font-family: "Lucida Sans";
+    font-size: 16px;
+    font-style: italic;
+    color: #4a4a4a
+  }
