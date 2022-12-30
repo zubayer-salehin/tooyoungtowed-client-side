@@ -9,7 +9,6 @@ import SignUp from '../Login&Signup/SignUp';
 import Banner from './Banner';
 import Footer from "./Footer";
 import Blog1to6 from "./Blog1to6";
-import Nafiz from './Nafiz';
 
 const Home = () => {
 
@@ -21,7 +20,6 @@ const Home = () => {
 
     return (
         <div>
-            <Nafiz></Nafiz>
             <Navbar setLoginModal={setLoginModal} />
             <Banner />
             <Login loginProps={loginProps} />
