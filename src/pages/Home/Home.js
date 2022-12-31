@@ -8,7 +8,7 @@ import Login from '../Login&Signup/Login';
 import SignUp from '../Login&Signup/SignUp';
 import Banner from './Banner';
 import Footer from "./Footer";
-import Blog1to6 from "./Blog1to6";
+import Blog1to6 from "../Home/Blog1to6/Blog1to6";
 
 const Home = () => {
 
