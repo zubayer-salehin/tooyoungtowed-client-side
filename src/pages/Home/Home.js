@@ -10,6 +10,7 @@ import Banner from './Banner/Banner';
 import Footer from "./Footer";
 import Blog1to6 from "./Blog1to6";
 
+
 const Home = () => {
 
     const [singUpModal, setSignUpModal] = useState(false);
