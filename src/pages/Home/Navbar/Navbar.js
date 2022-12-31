@@ -19,6 +19,7 @@ const Navbar = ({ setLoginModal }) => {
 
   const handleLogin = () => {
     setLoginModal(true)
+    setShowNav(!showNav)
   }
 
   const handleSignOut = () => {

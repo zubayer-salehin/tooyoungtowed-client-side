@@ -46,7 +46,7 @@ const SignUp = ({ signUpProps }) => {
                         ></div>
                         <div className="flex items-center min-h-screen px-4 py-8">
                             <div className="relative w-full max-w-sm mx-auto bg-white rounded-md">
-                                <div className='rounded-lg px-16 py-10'>
+                                <div className='rounded-lg px-12 sm:px-16 py-10'>
                                     <p onClick={() => setSignUpModal(false)} className="absolute top-6 right-7 font-bold cursor-pointer p-1">✕</p>
                                     <h1 className='mb-8 font-medium text-2xl text-center'>Sign up</h1>
                                     <form onSubmit={handleSubmit(onSubmit)}>
