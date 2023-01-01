@@ -1,10 +1,10 @@
 import React from "react";
-import blogImg10 from "./images/blogImg10.jpg";
-import blogImg11 from "./images/blogImg11.png";
-import blogImg12 from "./images/blogImg12.jpg";
-import blogImg7 from "./images/blogImg7.jpg";
-import blogImg8 from "./images/blogImg8.jpg";
-import blogImg9 from "./images/blogImg9.jpg";
+import blogImg10 from "../../../assets/images/Blog7to12/blogImg10.jpg";
+import blogImg11 from "../../../assets/images/Blog7to12/blogImg11.png";
+import blogImg12 from "../../../assets/images/Blog7to12/blogImg12.jpg";
+import blogImg7 from "../../../assets/images/Blog7to12/blogImg7.jpg";
+import blogImg8 from "../../../assets/images/Blog7to12/blogImg8.jpg";
+import blogImg9 from "../../../assets/images/Blog7to12/blogImg9.jpg";
 
 const BlogPart7to12 = () => {
   const contents = [

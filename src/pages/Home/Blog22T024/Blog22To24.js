@@ -1,7 +1,7 @@
 import React from 'react'
-import blog22 from "./blog22.jpg"
-import blog23 from "./blog23.jpg"
-import blog24 from "./blog24.jpg"
+import blog22 from "../../../assets/images/Blog22to24/blog22.jpg"
+import blog23 from "../../../assets/images/Blog22to24/blog23.jpg"
+import blog24 from "../../../assets/images/Blog22to24/blog24.jpg"
 import "./blog22To24.css"
 
 const Blog22To24 = () => {

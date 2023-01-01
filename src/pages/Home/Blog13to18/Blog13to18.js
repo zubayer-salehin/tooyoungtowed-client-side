@@ -1,5 +1,5 @@
 import React from "react";
-import blogs from "../../assets/BlogData/BlogData";
+import blogs from "../../../assets/blogData/BlogData13_18";
 
 
 function Blog13to18() {
@@ -18,7 +18,7 @@ function Blog13to18() {
                                     <img
                                         className="w-[450px] h-[300px]"
                                         src={blog.img}
-                                        alt="blogImage"/>
+                                        alt="blogImage" />
                                 </div>
                                 <div className="flex items-center">
                                     <div>

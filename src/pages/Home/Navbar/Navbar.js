@@ -1,5 +1,5 @@
 import styles from "./navbar.module.css";
-import hamburger from "./hamburger.svg";
+import hamburger from "../../../assets/images/Navbar/hamburger.svg";
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
