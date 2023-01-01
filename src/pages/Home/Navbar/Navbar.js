@@ -28,8 +28,8 @@ const Navbar = ({ setLoginModal }) => {
   }
 
   return (
-    <div className="lg:flex lg:bg-[#5c1112] lg:justify-between lg:items-center">
-      <div className="lg:h-[70px] h-[120px] bg-[#5c1112] flex lg:justify-between  flex-row items-center lg:pl-[40px] pl-[25px]  max-lg:gap-[190px] max-md:gap-[60px] max-[500px]:gap-[20px] sticky top-0 z-20 ">
+    <div className="lg:flex lg:bg-[#5c1112] lg:justify-between lg:items-center sticky top-0 z-10">
+      <div className="lg:h-[70px] h-[120px] bg-[#5c1112] flex lg:justify-between  flex-row items-center lg:pl-[40px] pl-[25px]  max-lg:gap-[190px] max-md:gap-[60px] max-[500px]:gap-[20px]  z-20 ">
         <img
           onClick={() => setShowNav(!showNav)}
           src={hamburger}
