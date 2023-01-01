@@ -43,7 +43,7 @@ const blogs = [
     date: "November 23, 2021",
     title: "JOIN TYTW FOR OUR 2021 VIRTUAL HOLIDAY FEST!",
     description:
-      "Register for our Virtual Holiday Fest TODAY! Please join us on December 11 from 12 - 1 PM EST at the following livestream: https://www.youtube.com/user/TooYoungtoWed",
+      "Register for our Virtual Holiday Fest TODAY! Please join us on December 11 from 12 - 1 PM EST",
     img: img5,
   },
   {
