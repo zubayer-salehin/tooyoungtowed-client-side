@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Blog22To24 from "../Blog22T024/Blog22To24";
-import BlogPart7to12 from "./BlogPart7to12";
+import BlogPart7to12 from "./Blog7to12/Blog7to12";
 import Navbar from "./Navbar/Navbar";
 import Blog13to18 from './Blog13to18';
 import Login from '../Login&Signup/Login';
