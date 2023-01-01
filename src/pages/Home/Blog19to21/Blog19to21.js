@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import SingleBlog5 from './SingleBlog19_21';
+import SingleBlog19to21 from './SingleBlog19to21';
 
 
 const Blog19to21 = () => {
@@ -12,13 +12,13 @@ const Blog19to21 = () => {
             .then(data => setBlogs(data))
     }, [])
     return (
-        <div>
-            <div className="bg-[#efe4ce]">
+        <div className="bg-[#efe4ce]">
+            <div className="py-2 max-w-7xl mx-auto px-5">
                 {
-                    blogs.map(blog => <SingleBlog5
+                    blogs.map(blog => <SingleBlog19to21
                         key={blog.id}
                         blog={blog}
-                    ></SingleBlog5>)
+                    ></SingleBlog19to21>)
                 }
             </div>
         </div>
