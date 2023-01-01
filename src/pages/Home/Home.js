@@ -6,9 +6,9 @@ import Blog13to18 from './Blog13to18';
 import Login from '../Login&Signup/Login';
 import SignUp from '../Login&Signup/SignUp';
 import Banner from './Banner/Banner';
-import Footer from './Footer/Footer';
-import Blog1to6 from "./Blog1to6";
-import Blog19to21 from './Blog19to21/Blog19to21';
+import Footer from "./Footer/Footer";
+import Blog1to6 from "../Home/Blog1to6/Blog1to6";
+import Blog19to21 from "../Home/Blog19to21/Blog19to21";
 
 
 const Home = () => {
