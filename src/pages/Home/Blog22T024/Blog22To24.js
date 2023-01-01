@@ -3,6 +3,7 @@ import blog22 from "./blog22.jpg"
 import blog23 from "./blog23.jpg"
 import blog24 from "./blog24.jpg"
 import "./blog22To24.css"
+
 const Blog22To24 = () => {
     return (
         <div className="bg-[#efe4ce]">
