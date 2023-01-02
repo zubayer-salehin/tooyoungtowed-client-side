@@ -4,9 +4,9 @@ import { faTwitter, faFacebookF, faLinkedinIn, faInstagram } from '@fortawesome/
 
 
 // image
-import BrandImg from '../../images/brand_img.png';
-import Brand_Trade_mark from '../../images/brand_trade-mark.svg';
-import Sologan from '../../images/sologan.png';
+import BrandImg from './images/brand_img.png';
+import Brand_Trade_mark from './images/brand_trade-mark.svg';
+import Sologan from './images/sologan.png';
 
 const Footer = () => {
     return (

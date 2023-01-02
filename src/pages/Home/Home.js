@@ -7,7 +7,7 @@ import Blog19to21 from './Blog19to21';
 import Login from '../Login&Signup/Login';
 import SignUp from '../Login&Signup/SignUp';
 import Banner from './Banner/Banner';
-import Footer from "./Footer";
+import Footer from './Footer/Footer';
 import Blog1to6 from "./Blog1to6";
 
 
