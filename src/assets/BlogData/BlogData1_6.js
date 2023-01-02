@@ -1,9 +1,9 @@
-import img1 from "../image/1.jpg";
-import img2 from "../image/2.jpg";
-import img3 from "../image/3.png";
-import img4 from "../image/4.png";
-import img5 from "../image/5.png";
-import img6 from "../image/6.jpg";
+import img1 from "../images/Blog1to6/blog1.jpg";
+import img2 from "../images/Blog1to6/blog2.jpg";
+import img3 from "../images/Blog1to6/blog3.png";
+import img4 from "../images/Blog1to6/blog4.png";
+import img5 from "../images/Blog1to6/blog5.png";
+import img6 from "../images/Blog1to6/blog6.jpg";
 
 const blogs = [
   {
@@ -43,7 +43,7 @@ const blogs = [
     date: "November 23, 2021",
     title: "JOIN TYTW FOR OUR 2021 VIRTUAL HOLIDAY FEST!",
     description:
-      "Register for our Virtual Holiday Fest TODAY! Please join us on December 11 from 12 - 1 PM EST at the following livestream: https://www.youtube.com/user/TooYoungtoWed",
+      "Register for our Virtual Holiday Fest TODAY! Please join us on December 11 from 12 - 1 PM EST",
     img: img5,
   },
   {
