@@ -1,6 +1,6 @@
 import React from 'react';
 import SingleBlog19to21 from './SingleBlog19to21';
-import blogData from "../../../../assets/blogData/BlogData19_21.json";
+import blogData from "../../../../assets/blogData/BlogData19_21";
 
 
 const Blog19to21 = () => {
