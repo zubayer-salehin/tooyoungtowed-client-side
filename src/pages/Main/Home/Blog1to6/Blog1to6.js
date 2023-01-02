@@ -1,5 +1,5 @@
 import React from "react";
-import blogs from "../../../../assets/blogData/BlogData1_6";
+import blogs from "../../../../assets/BlogData/BlogData1_6";
 
 function Blog1to6() {
 
@@ -8,7 +8,7 @@ function Blog1to6() {
     <div className="lg:max-w-[1075px] w-full mx-auto ">
       {blogs.map(({ id, date, title, description, img }) => (
         <div key={id} className="lg:flex block gap-16 pt-[64px] pb-[54px]">
-          <div className="lg:w-2/5 w-full">
+          <div className="w-full lg:w-2/5">
             <img className="w-full" src={img} alt={title} />
           </div>
           <div className="lg:w-3/5 w-full pt-[43px] p-5">

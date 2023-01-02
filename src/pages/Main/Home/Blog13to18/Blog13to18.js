@@ -1,12 +1,12 @@
 import React from "react";
-import blogs from "../../../../assets/blogData/BlogData13_18";
+import blogs from "../../../../assets/BlogData/BlogData13_18";
 
 
 function Blog13to18() {
 
     return (
         <section className="bg-[#efe4ce]">
-            <div className="py-20 max-w-7xl mx-auto px-5">
+            <div className="px-5 py-20 mx-auto max-w-7xl">
                 {blogs &&
                     blogs.map((blog) => {
                         return (
@@ -14,7 +14,7 @@ function Blog13to18() {
                                 key={blog.id}
                                 className="grid lg:grid-cols-2 grid-cols-1 mt-[65px] lg:px-0 px-5 text-center lg:text-left"
                             >
-                                <div className="lg:pl-20 lg:mr-6  mx-auto lg:mx-0">
+                                <div className="mx-auto lg:pl-20 lg:mr-6 lg:mx-0">
                                     <img
                                         className="w-[450px] h-[300px]"
                                         src={blog.img}
