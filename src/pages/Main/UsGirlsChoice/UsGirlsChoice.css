@@ -1,0 +1,48 @@
+.usGirlsChoiceText {
+    font-size: 48px;
+    line-height: 1.1;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+/* Container CSS Start */
+
+.usGirlChoiceContainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen {
+
+    @media (max-width: 575px) {
+        .usGirlChoiceContainer {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .usGirlChoiceContainer {
+            max-width: 520px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .usGirlChoiceContainer {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .usGirlChoiceContainer {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .usGirlChoiceContainer {
+            max-width: 1100px;
+        }
+    }
+}
