@@ -1,5 +1,5 @@
 import React from "react";
-import blogs from "../../../../assets/blogData/BlogData1_6";
+import blogs from "../../../../assets/BlogData/BlogData1_6";
 
 function Blog1to6() {
 
