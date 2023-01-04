@@ -155,7 +155,7 @@ const AboutUs = () => {
       </div>
 
       <div class="max-w-[1140px] w-[89%] mx-auto pt-[53px] pb-[40px] flex flex-col gap-7 ">
-        <h1 class="text-center lg:text-[48px] md:text-[36px] text-[30px] font-bold text-[#8c0804]">
+        <h1 class="text-center lg:text-[40px] md:text-[36px] text-[30px] font-bold text-[#8c0804]">
           DISCLAIMER
         </h1>
         <p className="md:text-[22px] text-[18px] font-bold">
