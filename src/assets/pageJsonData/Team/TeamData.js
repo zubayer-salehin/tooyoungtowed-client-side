@@ -13,6 +13,7 @@ import img12 from "../../images/Team/staff/staff_man_avatar.png";
 import img13 from "../../images/Team/staff/staff_woman_avatar.png";
 import img14 from "../../images/Team/staff/staff_wahida.png";   
 import img15 from "../../images/Team/staff/staff_raiha.png";
+import img16 from "../../images/Team/staff/staff_sangeeta.png";
 
 
 //  STAFF DATA
@@ -180,7 +181,7 @@ export const kenya=[
   },
   {
     id: 3,
-    name: "NAISIAE HIRIMA LEMPUSHUNAH",
+    name: "NAISIAE HIRIMA",
     title: "Program & Operations Officer, Kenya",
     description:
       "Naisiae brings a background of communications, non-profit work and program implementation and management experience. She worked as a programs officer at Community Safety Initiative Kenya (CSI-K) leading the following three programs: Resilience Peace and Security (RPS) which is funded by Danish Embassy, Reducing Insecurity and Violent Extremism in the Northern and Coastal regions of Kenya (REINVENT) funded by UKaid and USAID Kenya's Electoral Conflicts Mitigation and Civic/Voter Education Support (ECCES)Program on peace building and conflict management. Naisiae holds a Bachelor’s degree in Communications from Daystar University.",
@@ -212,7 +213,7 @@ export const nepal=[
     title: "Nepal Coordinator",
     description:
       "SANGEETA LAMA holds a Bachelor’s degree in Law and Political Science from the Hanzala Higher Education Institute in Afghanistan. He comes to TYTW with over 14 years of experience in government, non-profits, and education, and has a background in Afghanistan governmental affairs, community coordination and outreach, and program assessment and implementation. Tawakoli worked directly with the Administrative Office of the President in Kabul, and was a University lecturer at Hanzala Higher Education in Badghis Province. Additionally, he worked for the Afghan Paramount Welfare and Development Organization (APWDO) as a Provincial Coordinator in Badghis Province.",
-    img: img10,
+    img: img16,
   },
 ];
 
@@ -427,14 +428,14 @@ export const tytw_africa=[
 
 ];
 
-export const general={
+export const general=[{
   id:1,
   name: "CHRISTINA PIAIA",
   title: "Emeritus Board Member",
   description:
     "Human Rights Attorney, Founder & Board President of The Chris Hondros Fund. Formerly staff attorney for the New York City Office of Legal Affairs and Supervising Picture Editor with the Associated Press. Ms. Piaia helped found Too Young to Wed.",
   img: "http://www.tooyoungtowed.org/uploads/731.png",
-}
+}]
 
 export const board_adviser=[
   {
@@ -495,51 +496,57 @@ export const glbal_partner=[
   {
     id: 1,
     name: "INTERNATIONAL WOMEN'S MEDIA FOUNDATION",
+    title: "",
     img: "http://www.tooyoungtowed.org/uploads/765.png",
   },
   {
     id: 2,
     name: "Together Rising",
+    title: "",
     img:"http://www.tooyoungtowed.org/uploads/930.png",
   },
   {
     id: 3,
     name: "Isabel Allende Foundation",
+    title: "",
     img: "http://www.tooyoungtowed.org/uploads/767.png",
   },
   {
     id: 4,
     name: "Together Rising",
+    title: "",
     img:"http://www.tooyoungtowed.org/uploads/930.png",
   },
   {
     id: 5,
     name: "INTERNATIONAL WOMEN'S MEDIA FOUNDATION",
+    title: "",
     img: "http://www.tooyoungtowed.org/uploads/765.png",
   },
   {
     id: 6,
     name: "The Kendeda Fund",
+    title: "",
     img:"http://www.tooyoungtowed.org/uploads/766_34462.png",
   },
   {
     id: 7,
-    name: "David & Laura Merage Foundation",
+    name: "David & Laura Merage Foundation",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/770_83975.png",
   },
   {
     id: 8,
-    name: "Every Mother Counts",
+    name: "Every Mother Counts",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/771.png",
   },
   {
     id: 9,
-    name: "POPULATION COUNCIL",
+    name: "POPULATION COUNCIL",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/779.png",
   },
   {
     id: 10,
-    name: "US DEPARTMENT OF STATE",
+    name: "US DEPARTMENT OF STATE",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/778.png",
   },
 
@@ -549,32 +556,32 @@ export const glbal_partner=[
 export const implemantation_partner=[
   {
     id: 1,
-    name: "I_Rep Foundation",
+    name: "I_Rep Foundation",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/194_86238.png",
   },
   {
     id: 2,
-    name: "Solidarios Sin Fronteras",
+    name: "Solidarios Sin Fronteras",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/182.png",
   },
   {
     id: 3,
-    name: "Miles4Migrants",
+    name: "Miles4Migrants",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/826.jpeg",
   },
   {
     id: 4,
-    name: "Justice for Equality",
+    name: "Justice for Equality",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/827.png",
   },
   {
     id: 5,
-    name: "Learn Afghanistan",
+    name: "Learn Afghanistan",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/900.png",
   },
   {
     id: 6,
-    name: "Mentors Without Borders",
+    name: "Mentors Without Borders", title: "",
     img:"http://www.tooyoungtowed.org/uploads/901.png",
   },
 ];
@@ -583,32 +590,32 @@ export const implemantation_partner=[
 export const corporate_partner=[
   {
     id: 1,
-    name: "I_Rep Foundation",
+    name: "I_Rep Foundation",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/903.svg",
   },
   {
     id: 2,
-    name: "Solidarios Sin Fronteras",
+    name: "Solidarios Sin Fronteras",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/748_64595.png",
   },
   {
     id: 3,
-    name: "Miles4Migrants",
+    name: "Miles4Migrants",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/758_72978.png",
   },
   {
     id: 4,
-    name: "Justice for Equality",
+    name: "Justice for Equality",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/760_58607.png",
   },
   {
     id: 5,
-    name: "Learn Afghanistan",
+    name: "Learn Afghanistan",  title: "",
     img: "http://www.tooyoungtowed.org/uploads/790_10256.png",
   },
   {
     id: 6,
-    name: "Mentors Without Borders",
+    name: "Mentors Without Borders",  title: "",
     img:"http://www.tooyoungtowed.org/uploads/902.jpeg",
   },
 ];
