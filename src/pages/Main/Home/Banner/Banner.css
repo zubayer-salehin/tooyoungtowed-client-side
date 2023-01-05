@@ -1,0 +1,13 @@
+.bannerImage {
+    width: 100vw;
+    height: 122vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+    .bannerImage {
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
