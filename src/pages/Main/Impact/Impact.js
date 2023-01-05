@@ -17,8 +17,8 @@ const Impact = () => {
             {/* end banner  */}
 
             {/* start Girls Article  */}
-            <article className='mt-[53px] mb-[40px] lg:px-[104.5px] px-2'>
-                <div className='container mx-auto '>
+            <article className='lg:mt-[53px] mt-[20px] mb-[40px] lg:px-[104.5px] px-5 lg:text-justify'>
+                <div className='container mx-auto p-7 '>
                     <h1 className='text-5xl font-bold text-center mb-[30px] text-[#8c0804]'>OUR GLOBAL IMPACT</h1>
                     <div className='grid place-items-center pb-7 text-center'>
                         <em className='text-[22px] text-[#737373] italic leading-[1.5]'>Above, Anita, 15, during the Tehani Photo Workshop in Samburu County, Kenya</em>
@@ -40,7 +40,7 @@ const Impact = () => {
 
             </article>
             <img className='w-full' src="https://tooyoungtowed.org/assets/redpattern-border_distressed_bottom-b2bf99437a80fd84fcd6eedc5ea5b9b8e0d42e77a4cfe9de4504e94e8d6e8374.png" alt="" />
-            {/* end Girls Article  */}
+            {/* end impact Article  */}
 
             {/* parallax start  */}
             <article className='parallax'>
@@ -57,7 +57,7 @@ const Impact = () => {
                     <div className='flex justify-center my-[40px]'>
                         <img src="https://tooyoungtowed.org/assets/lotus-gradient-5f6dd739c2805bfaaad2b11d1a5dc9f8cd1b120ae0bc16aba019f9ba6db2f363.png" alt="" />
                     </div>
-                    <div className='grid place-items-center pb-7 text-center'>
+                    <div className='grid place-items-center pb-7 text-center p-10'>
                         <em className='text-[22px] text-[#737373] italic leading-[1.5]'>Above, Nujoud Ali in Sana'a, Yemen. She was married to her husband, more than 20 years her senior when she was only eight years old. They are now divorced. Nujoud's story caused parliament to consider a bill writing a minimum marriage age into law.</em>
                     </div>
                     <div className='container mx-auto lg:px-[104.5px] px-2'>
@@ -70,11 +70,11 @@ const Impact = () => {
                     </div>
                 </div>
             </article>
-            {/* End RESILIENT GIRLS  */}
+            {/* End RESILIENT IMPACT  */}
 
 
 
-            {/* Start Programming article  */}
+            {/* Start IMPACT article  */}
             <article>
                 <div className='container mx-auto lg:px-[104.5px] px-2'>
                     
@@ -83,7 +83,7 @@ const Impact = () => {
                     </div>
                 </div>
             </article>
-            {/* End Programming article  */}
+            {/* End IMPACT article  */}
             <div className='flex justify-center py-[40px]'>
                         <img src="https://tooyoungtowed.org/assets/lotus-gradient-5f6dd739c2805bfaaad2b11d1a5dc9f8cd1b120ae0bc16aba019f9ba6db2f363.png" alt="" />
                     </div>
