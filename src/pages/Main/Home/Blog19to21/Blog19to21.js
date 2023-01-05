@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
+import SingleBlog19to21 from './SingleBlog19to21';
 import blogData from "../../../../assets/BlogData/BlogData19_21";
-import SingleBlog19to21 from "./SingleBlog19to21";
+
 
 const Blog19to21 = () => {
   return (

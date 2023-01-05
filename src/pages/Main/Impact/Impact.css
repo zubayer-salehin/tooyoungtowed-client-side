@@ -1,0 +1,47 @@
+.banner{
+    position: relative;
+}
+
+.banner>h1{
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+.parallax {
+    background-image: url('../../../assets/images/Impact/impact_paralux.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1020px) {
+    .parallax{
+        background-attachment: local;
+    }
+    .banner>h1{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+    .bannerImage{
+        height: 70px;
+    }
+  }
+
+.parallax-container {
+    height: 414px;
+}
+
+p>a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.styled-qoute{
+    line-height: 1.0;
+    font-family: 'Reenie Beanie', cursive;
+    color: #5c1112;
+    font-size: 40px
+}
