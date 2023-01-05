@@ -8,8 +8,8 @@ const UsGirlsChoice = () => {
     return (
 
         <div>
-            {/* <div className='relative'>
-                <img className='h-[calc(100vh - 70px)] sm:w-[100vw] sm:h-[122vh] object-cover' src={bannerImage} alt="" />
+            <div className='relative'>
+                <img className='h-[50vh] sm:w-[100vw] sm:h-[122vh] object-cover' src={bannerImage} alt="" />
                 <h3 className='usGirlsChoiceText absolute top-[40%] left-[10%] text-5xl font-bold text-white'>US GIRLS’ CHOICE INITIATIVE</h3>
                 <img className='w-[100%] h-[33.7px]' src={flowerImage} alt="" />
             </div>
@@ -27,7 +27,7 @@ const UsGirlsChoice = () => {
                         <img src={waterLilies} alt="" />
                     </div>
                 </div>
-    </div>*/}
+            </div>
         </div>
     );
 };
