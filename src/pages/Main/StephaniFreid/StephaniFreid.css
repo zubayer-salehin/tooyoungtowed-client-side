@@ -1,15 +1,15 @@
-.banner{
+.banners{
     position: relative;
 }
 
-.banner>h1{
+.banners>h1{
     position: absolute;
     top: 280px;
-    left: 200px;
+    left: 210px;
 }
 
-.parallax {
-    background-image: url('../../../assets/images/Programming/parallax.jpg');
+.parallaxs {
+    background-image: url('https://i.ibb.co/XXfkQnS/stephanie-parallax.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -17,21 +17,24 @@
 }
 
 @media only screen and (max-width: 1020px) {
-    .parallax{
+    body{
+        text-align: justify;
+    }
+    .parallaxs{
         background-attachment: local;
     }
-    .banner>h1{
+    .banners>h1{
         position: absolute;
         top: 10px;
         left: 30px;
     }
-    .bannerImage{
-        height: 70px;
+    #ban{
+        height: 306px;
     }
   }
 
 
-.parallax-container {
+.parallaxs-container {
     height: 414px;
 }
 
