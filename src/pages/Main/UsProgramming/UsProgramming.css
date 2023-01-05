@@ -1,0 +1,41 @@
+.banner{
+    position: relative;
+}
+
+.banner>h1{
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+.parallax {
+    background-image: url('../../../assets/images/Programming/parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1020px) {
+    .parallax{
+        background-attachment: local;
+    }
+    .banner>h1{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+    .bannerImage{
+        height: 70px;
+    }
+  }
+
+
+.parallax-container {
+    height: 414px;
+}
+
+p>a{
+    color: blue;
+    text-decoration: underline;
+}
