@@ -225,7 +225,7 @@ export const additionalConsulties=[
     title: "Senior Grants Consultant",
     description:
       "Pamela has over thirty-five years’ experience working in, or with, nonprofit organizations. She has been an independent grant searcher/writer since 1993.",
-    img: "http://www.tooyoungtowed.org/uploads/844.png",
+    img: "https://ibb.co/f2jwxMK",
   },
   {
     id: 2,
