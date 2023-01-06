@@ -1,0 +1,44 @@
+.banners{
+    position: relative;
+}
+
+.banners>h1{
+    position: absolute;
+    top: 280px;
+    left: 210px;
+}
+
+.parallaxs {
+    background-image: url('https://i.ibb.co/XXfkQnS/stephanie-parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1020px) {
+    body{
+        text-align: justify;
+    }
+    .parallaxs{
+        background-attachment: local;
+    }
+    .banners>h1{
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+    #ban{
+        height: 306px;
+    }
+  }
+
+
+.parallaxs-container {
+    height: 414px;
+}
+
+p>a{
+    color: blue;
+    text-decoration: underline;
+}

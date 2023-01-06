@@ -112,20 +112,14 @@ const Navbar = () => {
             <div
               className={`${styles.dropdownArrow} ${styles.dropdownWrapper}`}
             >
-              <a href="http://" target="_blank" rel="noopener noreferrer">
-                Careers
-              </a>
+              <Link to="/carrer">Careers</Link>
             </div>
           </li>
           <li className="min-[1255px]:block lg:hidden">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Latest News
-            </a>
+            <Link to="/latest_news">Latest News</Link>
           </li>
           <li className="min-[1255px]:block lg:hidden">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
-              Contact
-            </a>
+            <Link to="/contact">Contact</Link>
           </li>
           {!userName ?
             <button onClick={handleLogin} className=" border w-[180px] h-[51px] font-medium  uppercase leading-[2.8px]">

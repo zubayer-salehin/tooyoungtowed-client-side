@@ -17,6 +17,9 @@ import Covid19Relief from "../pages/Main/Covid19Relief/Covid19Relief";
 import UsProgramming from "../pages/Main/UsProgramming/UsProgramming";
 import StephaniFreid from "../pages/Main/StephaniFreid/StephaniFreid";
 import UsGirlsChoice from "../pages/Main/UsGirlsChoice/UsGirlsChoice";
+import Carrer from "../pages/Main/Carrer/Carrer";
+import Contact from "../pages/Main/Contact/Contact";
+import LatestNews from "../pages/Main/LatestNews/LatestNews";
 
 
 const routes = createBrowserRouter([
@@ -92,6 +95,18 @@ const routes = createBrowserRouter([
             {
                 path: "/us_girls_choice",
                 element: <UsGirlsChoice />,
+            },
+            {
+                path: "/carrer",
+                element: <Carrer />,
+            },
+            {
+                path: "/contact",
+                element: <Contact />,
+            },
+            {
+                path: "/latest_news",
+                element: <LatestNews />,
             }
         ],
     },
